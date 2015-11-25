@@ -36,6 +36,13 @@
             android:targetClass="com.qualcomm.qti.phonefeature.uplmn.UserPLMNListPreference" />
     </PreferenceScreen>
 
+    <SwitchPreference
+        android:key="button_national_roaming_key"
+        android:title="@string/national_roaming"
+        android:persistent="false"
+        android:summaryOn="@string/national_roaming_enable"
+        android:summaryOff="@string/national_roaming_disable"/>
+
     <ListPreference
         android:key="preferred_network_mode_key"
         android:title="@string/preferred_network_mode_title"
